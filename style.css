@@ -1,0 +1,139 @@
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.row {
+display: flex;
+}
+
+.col {
+flex: 1;
+margin:15px;
+position: relative;
+}
+
+.col img {
+max-width: 100%; // максимальная ширина чтобы фотки вместились на странице
+width: 100%;
+
+border: 1px solid black;
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+  display: block;
+  }
+
+  .col {
+  padding: 0;
+  }
+}
+.overlay {
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+}
+
+.col:hover .overlay {
+transition: 1.5s;
+opacity: 1;
+}
+
+header img{
+margin-left: -110px;
+    width: 300px;
+  height: 80px;
+}
+header {
+  margin-left: 190px;
+  display: flex;
+}
+header input{
+  margin-left: 210px;
+  margin-top: 18px;
+  height: 20px;
+}
+
+section{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom:20px;
+}
+section img{
+  margin-left: 100px;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.btn-defoult{
+  margin-left: 200px;
+  margin-top: 25px;
+  height: 20px;
+  border: 2px solid gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-defoult2{
+  margin-left: 10px;
+  margin-top: 25px;
+  height: 20px;
+  border: 2px solid gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.btn-defoult3{
+  margin-left: 10px;
+  margin-top: 15px;
+  height: 20px;
+  border: 2px solid gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+section a:hover{
+  background-color: rgb(0,178,210);
+}
+.btn-defoult: hover{
+  border-width: 2px;
+}
+
+.main{
+  margin-left: 170px;
+}
+.main2{
+  display: flex;
+}
+.main3
+{
+
+  display: flex;
+}
+
+.main h4{
+  padding: 0px 20px;
+}
+
+.main4
+{
+  display: flex;
+}
+header input{
+  margin-top: 30px;
+}
+header a{
+  margin-top: 30px;
+}
